@@ -22,9 +22,15 @@
       <link href="./css/output.css" rel="stylesheet" />
    </head>
 
-   <body class="font-open">
+   <body class="font-open dark">
+      <!-- Dark/Lıght Toggle -->
+      <div class="absolute top-2 left-5 cursor-pointer text-lg">
+         <i class="fa-solid fa-sun text-white" id="sun"></i>
+         <i class="fa-solid fa-moon text-black hidden" id="moon"></i>
+      </div>
+
       <!-- Header section -->
-      <header class="bg-black py-6 lg:py-12 text-gega-grey uppercase">
+      <header class="dark:bg-black bg-white py-6 lg:py-12 dark:text-gega-grey text-black uppercase">
          <!-- Header container -->
          <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
             <!-- Logo -->
@@ -540,7 +546,7 @@
       </section>
 
       <!-- Matrix Section -->
-      <section class="bg-gega-white">
+      <section class=":bg-gega-white">
          <!-- Matrix Section Container -->
          <div class="container flex items-center justify-center relative">
             <!-- Left Content -->
@@ -754,5 +760,7 @@
             </div>
          </div>
       </footer>
+
+      <script src="./js/script.js"></script>
    </body>
 </html>
